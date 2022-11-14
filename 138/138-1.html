@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <script>
+	let arr = [
+		['a', 'b', 'c'],
+		['d', 'e', 'f'],
+		['g', 'h', 'i'],
+		['j', 'k', 'l'],
+	];
+
+	document.querySelector('#header').innerHTML = arr[3][2] + arr[1][1] + arr[2][0] + arr[0][0]
+
+	console.log(arr[3][2] + arr[1][1] + arr[2][0] + arr[0][0])
+    </script>
+  </body>
+</html>
